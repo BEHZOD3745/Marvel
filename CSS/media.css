@@ -1,0 +1,226 @@
+/* @media (max-width: 1440px) {} */
+@media (max-width: 1366px) {
+    .header__content {
+        padding: 50px 0 30px;
+    }
+}
+
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+@media (max-width: 1140px) {
+
+    .comics__card-btn,
+    .films__card-btn,
+    .series__card-btn {
+        opacity: 1;
+    }
+
+    .header__content .container,
+    .game .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        gap: 40px;
+    }
+
+    .content__desc,
+    .game__desc {
+        text-align: center;
+    }
+
+    .content__banner,
+    .info__img {
+        transform: unset;
+    }
+
+    /* .game__desc-title,
+    .game__desc-txt,
+    .game__links, */
+    .game__img {
+        transform: unset;
+    }
+
+    .game__desc-txt {
+        max-width: unset;
+    }
+
+    .game__links {
+        justify-content: center;
+    }
+
+    .info .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: unset;
+        gap: 40px;
+    }
+
+    .info__dsec-title,
+    .info__desc-txt {
+        text-align: center;
+    }
+
+    .info__desc-txt {
+        max-width: unset;
+    }
+
+    .info__title{
+        margin-bottom: 20px;
+    }
+
+    .info .container{
+        padding-top: 20px;
+    }
+
+    .game .container{
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .comics__cards,
+    .films__cards,
+    .series__cards {
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+/* @media (max-width: 992px) {} */
+@media (max-width: 850px) {
+    .nav__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__line {
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        position: relative;
+        transition: 500ms;
+        border-radius: 80px;
+    }
+
+    .nav__line::before,
+    .nav__line::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -10px;
+        background: #fff;
+        transition: 500ms;
+        border-radius: 80px;
+    }
+
+    .nav__line::after {
+        top: 10px;
+    }
+
+    .nav__list,
+    .nav__btn {
+        display: none;
+    }
+}
+
+/* @media (max-width: 768px) {} */
+@media (max-width: 736px) {
+
+    .content__title,
+    .game__title,
+    .info__title {
+        font-size: 53px;
+    }
+
+    .content__txt {
+        font-size: 23px;
+    }
+
+    .game__desc-title,
+    .info__dsec-title {
+        font-size: 34px;
+    }
+
+    .comics__title,
+    .films__title,
+    .series__title {
+        max-width: 485px;
+        width: 100%;
+        font-size: 54px;
+    }
+
+    .game__desc-txt,
+    .info__desc-txt {
+        font-size: 16px;
+    }
+
+    .game .container {
+        padding-top: 50px;
+    }
+
+    .info .container {
+        padding-top: 10px;
+    }
+}
+
+/* @media (max-width: 734px) {} */
+@media (max-width: 684px) {
+    .footer__list {
+        text-align: center;
+    }
+
+    .footer .container {
+        justify-content: space-between;
+    }
+}
+
+/* @media (max-width: 667px) {} */
+@media (max-width: 576px) {
+    .footer .container{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+@media (max-width: 414px) {
+    .content__title, .game__title, .info__title{
+        font-size: 34px;
+    }
+    .nav__burger-icon img{
+        width: 155px;
+    }
+    .content__txt{
+        font-size: 19px;
+    }
+
+    .comics__title,
+    .films__title,
+    .series__title {
+        font-size: 43px;
+    }
+
+    .game__desc-title, .info__dsec-title{
+        font-size: 20px;
+    }
+
+    .game__desc-txt, .info__desc-txt{
+        font-size: 13px;
+    }
+
+    .game__link{
+        max-width: 150px;
+        width: 100%;
+    }
+}
+/* @media (max-width: 412px) {} */
+/* @media (max-width: 375px) {} */
+/* @media (max-width: 360px) {} */
+@media (max-width: 320px) {
+    .info__btn,
+    .game__btn{
+        max-width: 290px;
+    }
+}
